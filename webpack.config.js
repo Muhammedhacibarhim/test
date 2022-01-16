@@ -47,18 +47,21 @@ module.exports = {
               },
 
 
-            {
-                test:  /\.(sa|sc|c)ss$/,
-                use: [
-                        {
-                            loader:MiniCssExtractPlugin.loader,
-                            options: {
-                                publicPath: '../'
-                            }
-                        },
-                        'css-loader',
-                 ]
-            },
+              {
+                test: /\.(sa|sc|c)ss$/,
+                  use: [
+                    {
+                      loader: MiniCssExtractPlugin.loader, 
+                      options: {
+                        publicPath: '../' 
+                      }
+                    },
+                    'css-loader',
+                    'sass-loader'
+                  ]
+              },
+              
+
                     
 
 

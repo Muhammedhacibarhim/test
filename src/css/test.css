@@ -1,0 +1,56 @@
+.custom-form-control, .custom-btn {
+  border: 1px solid #ebebeb;
+  box-shadow: none !important;
+  border-radius: 2px;
+  font-size: 14px;
+  transition: all ease 0.5s;
+  padding: 6px 16px 7px 16px;
+  color: #868686;
+}
+
+.custom-navbar .container .custom-form-control:focus {
+  border-color: #da0007;
+  box-shadow: 0 0 2px 0 #da0007;
+}
+
+.custom-btn:hover {
+  background-color: #d4d4d4;
+  border: 1px solid #8c8c8c;
+  color: #b86d07;
+}
+
+.custom-btn-danger {
+  background-color: transparent;
+  color: #ff5a5f;
+  border-color: #ff5a5f;
+  border-radius: 3px;
+}
+
+.custom-btn-danger:hover,
+.custom-btn-danger:active,
+.custom-btn-danger:focus,
+.custom-btn-danger:active:hover,
+.custom-btn-danger:active:focus {
+  color: #da0007;
+  border-color: #da0007;
+  background-color: transparent;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #f8ad47;
+  border-color: #f8ad47;
+  box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+  background-color: #f8ad47;
+  border-color: #f8ad47;
+  color: #000 !important;
+}
+
+/*# sourceMappingURL=test.css.map */
